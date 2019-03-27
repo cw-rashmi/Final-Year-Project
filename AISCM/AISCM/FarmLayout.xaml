@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AISCM.FarmLayout">
+    <ContentPage.Content>
+        <StackLayout x:Name="Main">
+            <Grid x:Name="Layout">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="280" />
+                    <RowDefinition Height="280" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="170" />
+                    <ColumnDefinition Width="170" />
+                </Grid.ColumnDefinitions>
+                <Label BackgroundColor="Blue" Grid.Row="0" Grid.Column="0" x:Name="region_1"/>
+                <Label BackgroundColor="Red" Grid.Row="0" Grid.Column="1" x:Name="region_2"/>
+                <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0" x:Name="region_3"/>
+                <Label BackgroundColor="Blue" Grid.Row="1" Grid.Column="1" x:Name="region_4"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
